@@ -222,7 +222,7 @@ Owing to the fact that our dataset contains too many variables, we choose to dro
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\linewidth]{KNN/onehot.png}
+    \includegraphics[width=0.9\linewidth]{KNN/oneHot.png}
     \caption{New columns generated after one-hot encoding}
 \end{figure}
 
@@ -237,7 +237,7 @@ After perfecting our datasets, we turn to implementing the k-NN algorithm. To ma
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\linewidth]{KNN/k.png}
+    \includegraphics[width=0.8\linewidth]{KNN/parameterK.png}
     \caption{Find parameter k through accuracy score}
 \end{figure}
 
@@ -249,7 +249,7 @@ Following the computation on all accuracy scores for k from 1 to 20, we plot the
     \centering
     \begin{subfigure}{.48\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{KNN/kplot.png}
+        \includegraphics[width=\linewidth]{KNN/kPlot.png}
         \caption{Accuracy scores for k from 1 to 20}
     \end{subfigure}
     \hfill
@@ -275,7 +275,7 @@ To understand this algorithm better, we first go over how decision trees work us
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=8cm]{p1.png}
+    \includegraphics[width=8cm]{RandomForest/decisionTree.png}
     \caption{Decision Tree}
     \label{fig:my_label}
 \end{figure}
@@ -284,7 +284,7 @@ Imagine that our dataset contains those number at the top of the decision tree i
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=8cm]{p2.png}
+    \includegraphics[width=8cm]{RandomForest/randomForest.png}
     \caption{Random Forest}
     \label{fig:my_label}
 \end{figure}
@@ -344,7 +344,7 @@ ntree=500, mtyr=5,importance=TRUE)
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=8cm]{Type.png}
+    \includegraphics[width=8cm]{RandomForest/summary.png}
     \caption{Summary of random forest}
     \label{fig:my_label}
 \end{figure}
@@ -353,7 +353,7 @@ We can also evaluate the importance of each variables by how much it decreases t
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=8cm]{p4.png}
+    \includegraphics[width=8cm]{RandomForest/varianceImportancePlot.png}
     \caption{Variance Importance Plot}
     \label{fig:subim2}
 \end{figure}
@@ -371,7 +371,7 @@ tab
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=8cm]{prediction.png}
+    \includegraphics[width=8cm]{RandomForest/prediction.png}
     \caption{Confusion Matrix}
     \label{fig:my_label}
 \end{figure}
